@@ -1,0 +1,11 @@
+---- storeMediaUri Matches (10 in 3 files) ----
+GPSLoggerService.java (application\src\nl\sogeti\android\gpstracker\logger):      public Uri storeMediaUri(Uri mediaUri) throws RemoteException
+GPSLoggerService.java (application\src\nl\sogeti\android\gpstracker\logger):         GPSLoggerService.this.storeMediaUri(mediaUri);
+GPSLoggerService.java (application\src\nl\sogeti\android\gpstracker\logger):   protected void storeMediaUri(Uri mediaUri)
+GPSLoggerServiceManager.java (application\src\nl\sogeti\android\gpstracker\logger):   public void storeMediaUri( Uri mediaUri )
+GPSLoggerServiceManager.java (application\src\nl\sogeti\android\gpstracker\logger):               this.mGPSLoggerRemote.storeMediaUri( mediaUri );
+InsertNote.java (application\src\nl\sogeti\android\gpstracker\actions):         InsertNote.this.mLoggerServiceManager.storeMediaUri(Uri.fromFile(file));
+InsertNote.java (application\src\nl\sogeti\android\gpstracker\actions):         InsertNote.this.mLoggerServiceManager.storeMediaUri(media);
+InsertNote.java (application\src\nl\sogeti\android\gpstracker\actions):                        InsertNote.this.mLoggerServiceManager.storeMediaUri(fileUri);
+InsertNote.java (application\src\nl\sogeti\android\gpstracker\actions):                        InsertNote.this.mLoggerServiceManager.storeMediaUri(fileUri);                        
+InsertNote.java (application\src\nl\sogeti\android\gpstracker\actions):                     InsertNote.this.mLoggerServiceManager.storeMediaUri(uri);
